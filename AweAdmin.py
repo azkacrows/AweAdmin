@@ -7,6 +7,7 @@ import time
 import sys
 import getopt
 import signal
+import socket
 
 class bcolors:
     BLUE = '\033[94m'
