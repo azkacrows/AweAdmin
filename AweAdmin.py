@@ -7,7 +7,6 @@ import time
 import sys
 import getopt
 import signal
-import socket
 
 class bcolors:
     BLUE = '\033[94m'
@@ -110,7 +109,7 @@ print bcolors.ENDC
 print t() + "[info] Memeriksa koneksi ke server target"
 
 
-code = check(host,"/")
+ccode = check(host,"/")
 
 if (ccode < 400):
 	print bcolors.BOLD + t() + "[info] Server target sudah aktif dan berjalan" + bcolors.ENDC
