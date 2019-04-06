@@ -1,10 +1,3 @@
-    ___       __          _     
-   /   |_      _____  /   | ____/ /___ ___  (_)___ 
-  / /| | | /| / / _ \/ /| |/ __  / __ `__ \/ / __ \
- / ___ | |/ |/ /  __/ ___ / /_/ / / / / / / / / / /
-/_/  |_|__/|__/\___/_/  |_\__,_/_/ /_/ /_/_/_/ /_/ 
-                                                   
-
 AweAdmin is a simple admin panel finder coded in python. 
 The script actually bruteforce the possible directories and returns the HTTP response code.
 you can add your own directories by editing "dir" file.
