@@ -110,7 +110,7 @@ print bcolors.ENDC
 print t() + "[info] Memeriksa koneksi ke server target"
 
 
-ccode = check(host,"/")
+code = check(host,"/")
 
 if (ccode < 400):
 	print bcolors.BOLD + t() + "[info] Server target sudah aktif dan berjalan" + bcolors.ENDC
